@@ -8,7 +8,8 @@ int main()
 {
     Student s ;
     s.OutPut();
-    getchar();
+    s.Init_List();
+    s.Input_List();
     getchar();
 
 }
